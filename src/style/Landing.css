@@ -14,20 +14,20 @@
 	  margin-top: 15%;
 	  margin-left: 15%;
     font-family: 'Raleway', sans-serif bold;
-    background: -webkit-linear-gradient(rgb(245, 239, 157), rgb(179, 163, 22));
+    background: -webkit-linear-gradient(rgb(248, 243, 170), rgb(221, 199, 5));
  	 -webkit-background-clip: text;
   	-webkit-text-fill-color: transparent;
-    font-size: 65px;
+    font-size: 75px;
   }
   .desc{
     margin-top: 10%;
     margin-left: 15%;
     font-family: 'Raleway', sans-serif;
-    font-size: 33px;
+    font-size: 50px;
     width: 80%;
 	  color: white;
     margin-top: -5%;
-	  background: -webkit-linear-gradient(rgb(247, 240, 152), rgb(173, 158, 22));
+	  background: -webkit-linear-gradient(rgb(248, 242, 160), rgb(212, 192, 4));
  	  -webkit-background-clip: text;
   	-webkit-text-fill-color: transparent;
   }

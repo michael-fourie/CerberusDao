@@ -1,0 +1,28 @@
+.pitch{
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    background-color: #680404;
+    background-image: linear-gradient(20deg, #3f0c0c 0%, #2b2929 100%);
+    height: 450px;
+    width: 65%;
+    border-radius: 100px;
+    box-shadow: rgba(255, 255, 255, 0.336) 0px 15px 25px, rgba(255, 255, 255, 0.13) 0px 5px 10px;
+}
+.pitch-title{
+    padding-top: 100px;
+    text-align: center;
+    font-size: 48px;
+    background: -webkit-linear-gradient(rgb(248, 243, 170), rgb(221, 199, 5));
+ 	 -webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+.pitch-body{
+    text-align: center;
+    margin: auto;
+    font-size: 28px;
+    width: 80%;
+    background: -webkit-linear-gradient(rgb(248, 243, 170), rgb(221, 199, 5));
+ 	 -webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
