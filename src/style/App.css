@@ -24,8 +24,8 @@
 
 @media only screen and (max-width: 767px) {
   .landing{
-    height: 1250px;
-    width: 440px;
+    height: fit-content;
+    width:fit-content;
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;

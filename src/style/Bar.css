@@ -28,6 +28,15 @@
             color: white;
             text-decoration: none;
           }
+          @media only screen and (max-width: 767px) {
+          .barTitle{
+            font-family: 'Raleway';
+            font-weight: bold;
+            font-size: 24px;
+            color: #FFD700;
+            margin-left: 3%;
+            text-align: left;
+           }
 
-        
+          }
          
