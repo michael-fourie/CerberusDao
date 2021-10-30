@@ -4,6 +4,7 @@
 }
 .landing{
   height: 1250px;
+  width: 100%;
   margin: 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -19,4 +20,25 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 124px;
+}
+
+@media only screen and (max-width: 767px) {
+  .landing{
+    height: 1250px;
+    width: 440px;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #000000;
+    background-image: linear-gradient(55deg, #000000 0%, #221b11 50%, #4b3504 100%);
+  }
+
+  .coming-soon{
+    margin-left: 0%;
+    font-family: 'Raleway', sans-serif bold;
+    background: -webkit-linear-gradient(rgb(245, 239, 157), rgb(179, 163, 22));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 84px;
+  }
 }
