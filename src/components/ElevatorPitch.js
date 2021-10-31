@@ -1,6 +1,7 @@
 import '../style/ElevatorPitch.css'
 import bank from '../media/bank.png'
 
+
 function ElevatorPitch() {
 
     return(

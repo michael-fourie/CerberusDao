@@ -10,7 +10,7 @@ function Landing() {
             <div className="info">
                 
                 <div className="vertical">
-                    <h1 className="title">Cerberus DAO</h1>
+                    <h1 className="title">CerberusDAO</h1>
                     <h2 className="desc">A decentralized reserve currency that harnesses the power of memes.</h2>
                 </div>
                 <div className="img">

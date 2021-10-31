@@ -3,6 +3,13 @@
     margin-top: 3%;
 
 }
+.vine{
+    height: 50px;
+    width: 750px;
+    margin-top: -2%;
+    padding-bottom: 3%;
+
+}
 .pitch{
     margin: auto;
     margin-top: 150px;
@@ -29,9 +36,11 @@
     margin-top: -2%;
     padding-bottom: 6%;
     width: 80%;
-    background: -webkit-linear-gradient(rgb(248, 243, 170), rgb(221, 199, 5));
+    color: rgb(177, 174, 174);
+    text-shadow: #2b2929 2px;
+    /* background: -webkit-linear-gradient(rgb(248, 243, 170), rgb(221, 199, 5));
  	 -webkit-background-clip: text;
-  	-webkit-text-fill-color: transparent;
+  	-webkit-text-fill-color: transparent; */
 }
 
 @media only screen and (max-width: 767px) {
@@ -69,7 +78,9 @@
         font-size: 22px;
         width: 90%;
         padding-bottom: 3%;
-        background: -webkit-linear-gradient(rgb(248, 243, 170), rgb(255, 230, 0));
-          -webkit-background-clip: text;
+        /* background: -webkit-linear-gradient(rgb(248, 243, 170), rgb(255, 230, 0));
+          -webkit-background-clip: text; */
+          color: rgb(177, 174, 174);
+          text-shadow: #2b2929 2px;
     }
 }
