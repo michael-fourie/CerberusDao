@@ -11,7 +11,7 @@ function ElevatorPitch() {
                     The CerberusDAO Treasury  
                 </p>
                 <p className="pitch-body">
-                Cerberus will assemble the mightiest meme coins and bond them into our treasury, offering them a permanent den while tapping the boundless energy of the communities that drive them.
+                Cerberus will assemble the mightiest meme coins and bond them into its treasury, offering them a permanent den while tapping the boundless energy of the communities that drive them.
                 </p>
             </div>
         </div>
