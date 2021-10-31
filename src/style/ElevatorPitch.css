@@ -1,18 +1,23 @@
+.bank{
+    width: 30%;
+    margin-top: 3%;
+
+}
 .pitch{
     margin: auto;
-    margin-top: 100px;
+    margin-top: 150px;
     margin-bottom: 50px;
     background-color: #680404;
     background-image: linear-gradient(20deg, #3f0c0c 0%, #2b2929 100%);
-    height: 450px;
-    width: 65%;
+    height:fit-content;
+    width: 75%;
     border-radius: 100px;
     box-shadow: rgba(255, 255, 255, 0.336) 0px 15px 25px, rgba(255, 255, 255, 0.13) 0px 5px 10px;
 }
 .pitch-title{
-    padding-top: 100px;
+    margin-top: -1%;
     text-align: center;
-    font-size: 48px;
+    font-size: 75px;
     background: -webkit-linear-gradient(rgb(248, 243, 170), rgb(221, 199, 5));
  	 -webkit-background-clip: text;
   	-webkit-text-fill-color: transparent;
@@ -21,6 +26,8 @@
     text-align: center;
     margin: auto;
     font-size: 28px;
+    margin-top: -2%;
+    padding-bottom: 6%;
     width: 80%;
     background: -webkit-linear-gradient(rgb(248, 243, 170), rgb(221, 199, 5));
  	 -webkit-background-clip: text;
@@ -28,26 +35,31 @@
 }
 
 @media only screen and (max-width: 767px) {
+    .bank{
+        width: 45%;
+        margin-top: 2%;
+    }
     .pitch{
         margin: auto;
         margin-top: 50px;
         margin-bottom: 50px;
         padding: 2%;
         background-color: #680404;
-        background-image: linear-gradient(20deg, #3f0c0c 0%, #2b2929 100%);
+        background-image: linear-gradient(180deg, #000000 0%, #360000 100%);
         height: fit-content;
-        width: 95%;
+        width: 85%;
         border-radius: 75px;
-        box-shadow: rgba(255, 255, 255, 0.336) 0px 15px 25px, rgba(255, 255, 255, 0.13) 0px 5px 10px;
+        box-shadow: rgba(255, 255, 255, 0.336) 0px 15px 25px, rgba(78, 20, 20, 0.13) 0px 5px 10px;
     }
     .pitch-title{
-        font-family: 'Raleway', sans-serif bold;
-        padding-top: 25px;
+        font-family: 'Raleway';
+        font-weight: bolder;
+        margin-top: -2%;
         margin-left: 1%;
         margin-right: 1%;
         text-align: center;
-        font-size: 26px;
-        background: -webkit-linear-gradient(rgb(248, 243, 170), rgb(221, 199, 5));
+        font-size: 36px;
+        background: -webkit-linear-gradient(rgb(255, 251, 195), rgb(160, 144, 3));
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
     }
@@ -55,8 +67,9 @@
         text-align: center;
         margin: auto;
         font-size: 22px;
-        width: 80%;
-        background: -webkit-linear-gradient(rgb(248, 243, 170), rgb(221, 199, 5));
+        width: 90%;
+        padding-bottom: 3%;
+        background: -webkit-linear-gradient(rgb(248, 243, 170), rgb(255, 230, 0));
           -webkit-background-clip: text;
     }
 }

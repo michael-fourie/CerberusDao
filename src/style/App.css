@@ -5,7 +5,7 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-color: #000000;
-  height: fit-content;
+  height:fit-content;
   width: fit-content;
   background-image: linear-gradient(27deg, #000000 0%, #313131 50%, #580202 100%);
 }
@@ -24,7 +24,6 @@
 }
 
 .coming-soon{
-  
   margin-left: 5%;
   font-family: 'Raleway', sans-serif bold;
   background: -webkit-linear-gradient(rgb(245, 239, 157), rgb(179, 163, 22));

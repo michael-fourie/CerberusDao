@@ -2,6 +2,7 @@ html {
   height: 100%;
 }
 body {
+  height: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-image: linear-gradient(0deg, #000000 0%, #1b0606 80%, #580202 100%);

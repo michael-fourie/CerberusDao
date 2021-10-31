@@ -8,7 +8,7 @@ import Landing from './Landing'
 import Bar from './Bar.js'
 import { useEffect, useState } from 'react';
 import ElevatorPitch from './ElevatorPitch.js'
-
+import River from './River.js'
 
 function App() {
 
@@ -42,9 +42,7 @@ function App() {
       { ended &&
       <div className='content'>
         <ElevatorPitch />
-        <div height="50px">
-          <br></br>
-        </div>
+        <River />
       </div>
       }
     </div>
