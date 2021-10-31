@@ -2,7 +2,7 @@
          .barTitle{
           font-family: 'Raleway';
           font-weight: bold;
-          font-size: 32px;
+          font-size: 38px;
           color: #FFD700;
           margin-left: 3%;
           text-align: left;
@@ -11,21 +11,14 @@
             margin: 10px;
             font-family: 'Raleway';
             font-weight: bolder;
-            padding: 15px 45px;
             text-align: center;
-            text-transform: none;
-            transition: 0.5s;
-            border-radius: 18px;
-            color: white;            
+            text-transform: none;        
             display: block;
-            background: -webkit-linear-gradient(rgb(247, 240, 152), rgb(173, 158, 22));
-            -webkit-background-clip: text;
-           -webkit-text-fill-color: transparent;
+            color: #9b860d;
           }
 
           .btn-grad:hover {
             background-position: right center; /* change the direction of the change here */
-            color: white;
             text-decoration: none;
           }
           @media only screen and (max-width: 767px) {

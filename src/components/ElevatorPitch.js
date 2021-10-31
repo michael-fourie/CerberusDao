@@ -9,7 +9,7 @@ function ElevatorPitch() {
                     The Meme Driven Treasury  
                 </p>
                 <p className="pitch-body">
-                We will be taking all the best memes and bonding them into our treasury, starting with the one and only SHIBA INU. Our treasury will act as “the black hole of meme-coins” and the powerful communities that drive them.
+                Cerberus will assemble the mightiest meme coins and bond them into our treasury. Beggining with the one and only SHIBA INU, our treassury will grow with the over time. The Cerberus Treasury will act as “the black hole of meme-coins”, and the powerful communities that drive them.
                 </p>
             </div>
         </div>

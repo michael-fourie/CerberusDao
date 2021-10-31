@@ -14,10 +14,10 @@
 	  margin-top: 15%;
 	  margin-left: 15%;
     font-family: 'Raleway', sans-serif bold;
-    background: -webkit-linear-gradient(rgb(248, 243, 170), rgb(221, 199, 5));
+    background: -webkit-linear-gradient(rgb(255, 253, 220), rgb(255, 230, 0));
  	 -webkit-background-clip: text;
   	-webkit-text-fill-color: transparent;
-    font-size: 75px;
+    font-size: 95px;
   }
   .desc{
     margin-top: 10%;
