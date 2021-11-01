@@ -34,7 +34,7 @@ function App() {
       :
       [(!isMobile && 
         <div style={{ overflow: 'hidden', height: '100vh', width: '100vw'}}>
-          <video autoPlay muted onEnded={() => handleEnd()} height="120%">
+          <video autoPlay onEnded={() => handleEnd()} height="120%">
             <source src={video} type="video/mp4" />
           </video>
         </div>

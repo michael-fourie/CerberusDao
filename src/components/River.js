@@ -5,7 +5,7 @@ function River() {
     return (
         <div>
             <p className="river-title">Think of a river that never stops flowing...</p>
-            <p className="river-text">What sets Cerebrus apart from Olympus and its forks is that it harnesses the limitless power of meme coins, rather than relying solely on stablecoins to fill its treasury.</p>
+            <p className="river-text">What sets Cerberus apart from Olympus and its forks is that it harnesses the limitless power of meme coins, rather than relying solely on stablecoins to fill its treasury.</p>
             <svg className="waves" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"
                 viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
                 <defs>
