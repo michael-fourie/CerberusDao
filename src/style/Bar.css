@@ -1,15 +1,14 @@
 
          .barTitle{
-          font-family: 'Raleway';
           font-weight: bold;
           font-size: 38px;
           color: #FFD700;
           margin-left: 3%;
           text-align: left;
-         }
+          font-family: 'Nunito', sans-serif;
+        }
          .btn-grad {
             margin: 10px;
-            font-family: 'Raleway';
             font-weight: bolder;
             text-align: center;
             text-transform: none;        
@@ -23,7 +22,7 @@
           }
           @media only screen and (max-width: 767px) {
           .barTitle{
-            font-family: 'Raleway';
+            font-family: 'Nunito', sans-serif;
             font-weight: bold;
             font-size: 24px;
             color: #FFD700;

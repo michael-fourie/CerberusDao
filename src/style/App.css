@@ -23,15 +23,6 @@
   margin-bottom: 50px;
 }
 
-.coming-soon{
-  margin-left: 5%;
-  font-family: 'Raleway', sans-serif bold;
-  background: -webkit-linear-gradient(rgb(245, 239, 157), rgb(179, 163, 22));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 124px;
-}
-
 @media only screen and (max-width: 767px) {
   .App {
     text-align: center;
@@ -46,12 +37,5 @@
     width:fit-content;
     margin: 0;
   
-  }
-
-  .coming-soon{
-    margin-left: 0%;
-    font-family: 'Raleway', sans-serif bold;
-  
-    font-size: 84px;
   }
 }

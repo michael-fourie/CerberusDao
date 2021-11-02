@@ -22,6 +22,7 @@
     box-shadow: rgba(255, 255, 255, 0.336) 0px 15px 25px, rgba(255, 255, 255, 0.13) 0px 5px 10px;
 }
 .pitch-title{
+    font-family: 'Nunito', sans-serif;
     margin-top: -1%;
     text-align: center;
     font-size: 75px;
@@ -30,6 +31,7 @@
   	-webkit-text-fill-color: transparent;
 }
 .pitch-body{
+    font-family: 'Nunito', sans-serif;
     text-align: center;
     margin: auto;
     font-size: 28px;
@@ -61,7 +63,7 @@
         box-shadow: rgba(255, 255, 255, 0.336) 0px 15px 25px, rgba(78, 20, 20, 0.13) 0px 5px 10px;
     }
     .pitch-title{
-        font-family: 'Raleway';
+        font-family: 'Nunito', sans-serif;
         font-weight: bolder;
         margin-top: -2%;
         margin-left: 1%;
@@ -73,11 +75,13 @@
           -webkit-text-fill-color: transparent;
     }
     .pitch-body{
+        font-family: 'Nunito', sans-serif;
         text-align: center;
         margin: auto;
         font-size: 22px;
         width: 90%;
         padding-bottom: 8%;
+        margin-top: -8%;
         /* background: -webkit-linear-gradient(rgb(248, 243, 170), rgb(255, 230, 0));
           -webkit-background-clip: text; */
           color: rgb(177, 174, 174);
