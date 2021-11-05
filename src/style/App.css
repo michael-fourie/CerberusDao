@@ -30,7 +30,7 @@
     background-attachment: fixed;
     background-color: #000000;
     height: fit-content;
-    background-image: linear-gradient(27deg, #000000 0%, #313131 50%, #6d5a5a 100%);
+    background-image: linear-gradient(27deg, #000000 0%, #313131 70%, #6d5a5a 100%);
   }
   .landing{
     height: fit-content;
