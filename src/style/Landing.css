@@ -14,22 +14,17 @@
     font-family: 'Nunito', sans-serif;
 	  margin-top: 15%;
 	  margin-left: 15%;
-    background: -webkit-linear-gradient(rgb(255, 253, 220), rgb(255, 230, 0));
- 	 -webkit-background-clip: text;
-  	-webkit-text-fill-color: transparent;
-    font-size: 95px;
+    color: rgb(255, 230, 0);
+    font-size: 98px;
   }
   .desc{
     font-family: 'Nunito', sans-serif;
-    margin-top: 10%;
     margin-left: 15%;
     font-size: 42px;
     width: 80%;
-	  color: white;
+	  color: rgb(255, 230, 0);
     margin-top: -5%;
-	  background: -webkit-linear-gradient(rgb(248, 242, 160), rgb(212, 192, 4));
- 	  -webkit-background-clip: text;
-  	-webkit-text-fill-color: transparent;
+	 
   }
 
   .img {
@@ -54,9 +49,7 @@
       margin: auto;
       font-family: 'Nunito', sans-serif;
       margin-top: 15%;
-      background: -webkit-linear-gradient(rgb(245, 239, 157), rgb(179, 163, 22));
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
+      color: rgb(255, 230, 0);
       font-size: 50px;
       
     }
@@ -67,9 +60,7 @@
       width: 80%;
       margin-top: -2%;
       text-align: center;
-      background: -webkit-linear-gradient(rgb(247, 240, 152), rgb(173, 158, 22));
-       -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
+      color: rgb(255, 230, 0);
     }
     .img{
       display: none;
