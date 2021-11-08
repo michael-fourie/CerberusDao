@@ -44,7 +44,7 @@ function Bar() {
                      style={{ marginRight: '0.5%', color:"#fff9a3",textTransform: 'none', fontSize: '14px' }} >Twitter</Button>
                   <Button  onClick = {(e) => {
                     e.preventDefault();
-                    window.location.href='https://t.co/EP6ouOP5Tv?amp=1';
+                    window.location.href='https://t.co/uIfdsWMzne?amp=1';
                     }} 
                      style={{color:"#fff9a3", textTransform: 'none',fontSize: '14px' }} >Discord</Button>
                 </Toolbar>
@@ -71,7 +71,7 @@ function Bar() {
                      style={{ marginRight: '3%', color:"#fff9a3",textTransform: 'none', fontSize: '28px' }} className="btn-grad">Twitter</Button>
                   <Button  onClick = {(e) => {
                     e.preventDefault();
-                    window.location.href='https://t.co/EP6ouOP5Tv?amp=1';
+                    window.location.href='https://t.co/uIfdsWMzne?amp=1';
                     }} 
                      style={{ marginRight: '3%', color:"#fff9a3",textTransform: 'none', fontSize: '28px' }} className="btn-grad">Discord</Button>
                 </Toolbar>  
