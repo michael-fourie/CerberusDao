@@ -2,20 +2,36 @@
 .App {
   height: 0;
   text-align: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-color: #000000;
   height:fit-content;
   width: fit-content;
-  background-image: linear-gradient(27deg, #000000 0%, #313131 50%, #6d5a5a 100%);
-}
-.landing{
-  height: fit-content;
-  width: 100%;
-  margin: 0;
+  background: #FFFFFF;
   
 }
+.landing{
+  height: 800px;
+  width: 100%;
+  margin: auto;
+  background: #0b1a22;
+}
 
+.stats{
+  height: 165px;
+  background: #000000;
+  width: 100%;
+  margin-top: -1.5%;
+}
+.apy{
+  height: fit-content;
+  width: 100%;
+  background: linear-gradient(298deg, rgba(64, 64, 64, 1) 0%, rgba(255, 255, 255, 1) 100%);
+  box-shadow: 0px 4px 4px rgba(0,0,0,0.25)
+}
+
+.liquidity{
+  height: fit-content;
+  width: 100%;
+  background: #0b1a22; 
+}
 .content{
   height: fit-content;
   margin-top: -2.7%;
@@ -26,16 +42,14 @@
 @media only screen and (max-width: 767px) {
   .App {
     text-align: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-color: #000000;
-    height: fit-content;
-    background-image: linear-gradient(27deg, #000000 0%, #313131 70%, #6d5a5a 100%);
+    height:fit-content;
+    width: fit-content;
+    background: #FFFFFF;
   }
   .landing{
-    height: fit-content;
-    width:fit-content;
-    margin: 0;
-  
+    height: 1200px;
+    width: 100%;
+    margin: auto;
+    background: #0b1a22;
   }
 }

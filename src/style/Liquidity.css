@@ -1,0 +1,99 @@
+.lp-div{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 4%;
+    padding-top: 5%;
+}
+
+.lp-left{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 40%;
+    justify-content: center;
+}
+
+.lp-right{
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.lp-title{
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 41px;
+    color: #FFFFFF;
+}
+
+.lp-bio{
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.lp-body{
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.lp-value{
+    margin: auto;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 84px;
+    color: #FFFFFF;
+}
+
+.lp-valuebody{
+    margin: auto;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+
+.lp-percent{
+    margin: auto;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 84px;
+    color: #FFFFFF;
+}
+
+.lp-percentbody{
+    margin: auto;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 33px;
+    color: #FFFFFF;
+    margin: auto;
+}

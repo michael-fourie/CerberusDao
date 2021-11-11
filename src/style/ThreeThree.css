@@ -1,0 +1,43 @@
+
+.threethree-div{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+
+.threethree-body{
+    position: absolute;
+    width: 689px;
+    height: 265px;
+    margin: auto;
+    justify-content: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 53px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+
+.threethree-background{
+    z-index: 100;
+    margin-top: -10%;
+    position: absolute;
+    width: 526px;
+    height: 469px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 400px;
+    line-height: 469px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: -0.04em;
+    color: rgba(255, 255, 255, 0.05);
+}
+

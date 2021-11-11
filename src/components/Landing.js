@@ -7,9 +7,6 @@ function Landing() {
    
     return(
         <div>
-            {isMobile &&
-                 <img src={dog} style={{ width:'60%', marginBottom:'-22%', marginTop: '1%' }} />
-            }
             <div className="info">
                 <div className="vertical">
                     <h1 className="title">CerberusDAO</h1>

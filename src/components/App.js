@@ -1,50 +1,35 @@
 
 import '../style/App.css';
-
+import Apy from "./Apy"
 import { isMobile } from 'react-device-detect';
-import video from '../media/intro.mp4'
-import mobileVideo from '../media/cropped-intro.mp4'
 import Landing from './Landing'
-import Bar from './Bar.js'
+import TopBar from './TopBar.js'
+import Stats from './Stats.js'
+import ThreeThree from './ThreeThree.js'
 import { useEffect, useState } from 'react';
 import ElevatorPitch from './ElevatorPitch.js'
 import River from './River.js'
-
+import InvestmentProtection from "./InvestmentProtection.js"
+import Liquidity from "./Liquidity.js"
 function App() {
-
-  const [ended, setEnded] = useState(false)
-
-  useEffect(() => {
-    if (isMobile){
-      setEnded(true)
-    }
-  }, [])
-
-  function handleEnd() { 
-    setEnded(true)
-  }
 
   return (
     <div className="App">
-      {ended ? 
       <div className="landing">
-        <Bar />
+        <TopBar />
         <Landing />
       </div>
-      :
-      [(!isMobile && 
-        <div style={{ overflow: 'hidden', height: '100vh', width: '100vw'}}>
-          <video autoPlay muted onEnded={() => handleEnd()} height="120%">
-            <source src={video} type="video/mp4" />
-          </video>
-        </div>
-      )]}
-      { ended &&
-      <div className='content'>
-        <ElevatorPitch />
-        <River />
+      <div className="stats">
+        <Stats />
       </div>
-      }
+      <div className="apy">
+        <Apy />
+        <ThreeThree />
+        <InvestmentProtection />
+      </div>
+      <div className="liquidity">
+        <Liquidity />
+      </div>
     </div>
   )
 }
