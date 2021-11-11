@@ -4,8 +4,8 @@ function ThreeThree() {
 
     return(
         <div className="threethree-div  ">
-            <p className="threethree-body">Cerberus rewards stakers with compunding interest, increasing their 3DOG holdings over time.</p>
-            <p className="threethree-background">3,3</p>
+            <p className="threethree-body">Cerberus will assemble the mightiest meme coins, starting with SHIB, and bond them into its treasury, offering them a permanent den while tapping the boundless energy of the communities that drive them.</p>
+            <p className="threethree-background">(🐶,🐶,🐶)</p>
         </div>
     )
 }

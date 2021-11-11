@@ -1,3 +1,9 @@
+.apy-info{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
 .sustainable{
     margin: auto;
     padding-top: 4%;    
@@ -8,7 +14,13 @@
     line-height: 84px;
     color: #FFFFFF;
 }
-
+.apy-btn{
+    width: 50%;
+    color: white;
+    height: 44px;
+    background: linear-gradient(316.29deg, #9C622E 22.96%, #FACB99 75.17%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
 .apy-info{
     margin-top: 2%;
     display: flex;
@@ -18,19 +30,19 @@
 }
 
 .apy-percent{
-    margin-top: 4%;
-    margin-right: -15%;
+    margin-top: 8%;
+    margin-right: -32%;
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
-    font-size: 72px;
+    font-size: 43px;
     line-height: 84px;
     color: #FFFFFF;
 }
 
 .apy-reward{
-    margin-top: -2%;
-    margin-right: -15%;
+    margin-top: -4%;
+    margin-right: -30%;
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -73,4 +85,82 @@
     font-size: 20px;
     line-height: 23px;
     color: #FFFFFF;
+}
+
+@media only screen and (max-width: 767px) {
+    .sustainable{
+        margin: auto;
+        padding-top: 4%;    
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 52px;
+        line-height: 84px;
+        color: #FFFFFF;
+    }
+    
+    .apy-info{
+        margin-top: 2%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .apy-percent{
+        margin-top: 4%;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 22px;
+        color: #FFFFFF;
+    }
+    
+    .apy-reward{
+        margin-top: -2%;
+        width: 75%;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        color: #FFFFFF;
+    }
+    
+    .apy-regulated{
+        margin-top: 4%;
+        text-align: left;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        color: #FFFFFF;
+    }
+    
+    .apy-title{
+        margin-top: -10%;
+        text-align: left;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        width: 100%;
+        color: rgba(255, 255, 255, 0.5);
+    }
+    
+    .apy-desc{
+        margin-top: -1%;
+        text-align: left;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        color: #FFFFFF;
+    }
+    .apy-btn{
+        width: 100%;
+        color: white;
+        height: 44px;
+        background: linear-gradient(316.29deg, #9C622E 22.96%, #FACB99 75.17%);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
 }

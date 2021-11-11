@@ -1,10 +1,10 @@
 .ip-div{
-    margin-top: 25%;
+    margin-top: 22%;
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    padding-bottom: 8%;
+    padding-bottom: 6%;
 }
 
 .ip-title{
@@ -16,7 +16,6 @@
     font-size: 30px;
     line-height: 35px;
     text-align: center;
-
     color: #FFFFFF;
 }
 
@@ -28,13 +27,13 @@
     line-height: 23px;
     text-align: center;
     margin: auto;
-    margin-top: 2%;
-    color: rgba(255, 255, 255, 0.4);
+    margin-top: 0.5%;
+    color: rgba(255, 255, 255, 0.534);
 
 }
 
 .ip-body{
-    width: 40%;
+    width: 35%;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;

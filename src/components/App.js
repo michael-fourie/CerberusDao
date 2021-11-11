@@ -7,8 +7,6 @@ import TopBar from './TopBar.js'
 import Stats from './Stats.js'
 import ThreeThree from './ThreeThree.js'
 import { useEffect, useState } from 'react';
-import ElevatorPitch from './ElevatorPitch.js'
-import River from './River.js'
 import InvestmentProtection from "./InvestmentProtection.js"
 import Liquidity from "./Liquidity.js"
 function App() {

@@ -9,9 +9,9 @@ function Liquidity(){
                 <p className="lp-body">Cerberus owns almost all of its liquidity, which helps maintain price stability and treasury income. With a protocol-owned liquidity, Cerberus is protected from unpredictable and unfavorable market conditions due to longevity and efficiency.</p>
             </div>
             <div className="lp-right">
-                <p className="lp-value">$x</p>
+                <p className="lp-value">Coming Soon</p>
                 <p className="lp-valuebody">Protocol Owned Liquidity</p>
-                <p className="lp-percent">x%</p>
+                <p className="lp-percent">Coming Soon</p>
                 <p className="lp-percentbody">of Total LP supply</p>
             </div>
         </div>

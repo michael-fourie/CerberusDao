@@ -26,7 +26,7 @@ function Bar() {
             {isMobile ?
                 <Toolbar>
                 <Box display='flex' flexGrow={1}>
-                  <img alt="logo" src={head} width="100px" height="100px" /> 
+                  <img alt="logo" src={head} width="50px" height="50px" /> 
                 </Box> 
                   <Button onClick = {(e) => {
                       e.preventDefault();
