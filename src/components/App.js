@@ -9,6 +9,7 @@ import ThreeThree from './ThreeThree.js'
 import { useEffect, useState } from 'react';
 import InvestmentProtection from "./InvestmentProtection.js"
 import Liquidity from "./Liquidity.js"
+import Socials from "./Socials.js"
 function App() {
 
   return (
@@ -27,6 +28,9 @@ function App() {
       </div>
       <div className="liquidity">
         <Liquidity />
+      </div>
+      <div className="socials">
+        <Socials />
       </div>
     </div>
   )
