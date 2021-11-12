@@ -12,7 +12,7 @@
   width: 100%;
   margin: auto;
   background: #0b1a22;
-  background: linear-gradient(to right, #0b1a22, #0f232e); 
+  background: radial-gradient(circle, rgba(7,16,20,1) 0%, rgba(17,39,50,1) 35%, rgba(24,55,73,1) 100%);
 }
 
 .stats{
@@ -32,7 +32,7 @@
 .liquidity{
   height: fit-content;
   width: 100%;
-  background: #0b1a22; 
+  background: radial-gradient(circle, rgba(7,16,20,1) 0%, rgba(17,39,50,1) 35%, rgba(24,55,73,1) 100%);
 }
 .content{
   height: fit-content;
