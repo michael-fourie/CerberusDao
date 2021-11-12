@@ -2,6 +2,7 @@
 .threethree-div{
     margin-top: 10%;
     display: flex;
+    height: fit-content;
     flex-direction: row;
     text-align: center;
     justify-content: center;
@@ -17,6 +18,7 @@
     font-style: normal;
     font-weight: bold;
     font-size: 45px;
+    font-size: 3.5vw;
     line-height: 53px;
     text-align: center;
     color: #ffffff;
@@ -34,12 +36,14 @@
     font-style: normal;
     font-weight: bold;
     font-size: 250px;
+    font-size: 18.5vw;
     line-height: 469px;
     /* identical to box height */
     text-align: center;
     letter-spacing: -0.04em;
     color: rgba(255, 255, 255, 0.09);
 }
+
 
 @media only screen and (max-width: 767px) {
 
@@ -54,31 +58,30 @@
     .threethree-body{
         position: absolute;
         width: 80%;
-        height: 100px;
         margin: auto;
         justify-content: center;
         font-family: Roboto;
-        font-style: normal;
-        font-weight: bold;
         font-size: 18px;
         text-align: center;
-        word-spacing: 0%;
+        margin-top: 20%;
+        line-height: 100%;
         color: #FFFFFF;
     }
     
     
     .threethree-background{
         z-index: 100;
-        margin-top: -10%;
+        margin-top: -60%;
         position: absolute;
         width: 80%;
         font-family: Roboto;
         font-style: normal;
         font-weight: bold;
-        font-size: 100px;
+        font-size: 85px;
+        font-size: 15.5vw;
         /* identical to box height */
         text-align: center;
         letter-spacing: -0.04em;
-        color: rgba(255, 255, 255, 0.5);
+        color: rgba(255, 255, 255, 0.25);
     }
 }

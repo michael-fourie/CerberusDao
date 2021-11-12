@@ -31,7 +31,6 @@
 
 .apy-percent{
     margin-top: 8%;
-    margin-right: -32%;
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
@@ -42,7 +41,6 @@
 
 .apy-reward{
     margin-top: -4%;
-    margin-right: -30%;
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -118,7 +116,7 @@
     
     .apy-reward{
         margin-top: -2%;
-        width: 75%;
+        width: 100%;
         font-family: Roboto;
         font-style: normal;
         font-weight: 500;
@@ -137,18 +135,19 @@
     }
     
     .apy-title{
-        margin-top: -10%;
+        margin-top: -6%;
         text-align: left;
         font-family: Roboto;
         font-style: normal;
         font-weight: 300;
         font-size: 20px;
-        width: 100%;
+        width: 75%;
         color: rgba(255, 255, 255, 0.5);
     }
     
     .apy-desc{
         margin-top: -1%;
+        width: 85%;
         text-align: left;
         font-family: Roboto;
         font-style: normal;
@@ -157,7 +156,7 @@
         color: #FFFFFF;
     }
     .apy-btn{
-        width: 100%;
+        width: 50%;
         color: white;
         height: 44px;
         background: linear-gradient(316.29deg, #9C622E 22.96%, #FACB99 75.17%);
