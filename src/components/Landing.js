@@ -10,7 +10,7 @@ function Landing() {
             <div className="info">
                 <div className="vertical">
                     <h1 className="title">CerberusDAO</h1>
-                    <h2 className="desc">A decentralized reserve currecny thriving from the powerful communities behind SHIB, the ultra sound value of ETH, and the stable value of DAI.</h2>
+                    <h2 className="desc">A decentralized reserve currency thriving from the powerful communities behind SHIB, the ultra sound value of ETH, and the stable value of DAI.</h2>
                 </div>
                 <div className="img">
                     <img src={dog} className="img"/>
