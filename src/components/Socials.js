@@ -7,6 +7,11 @@ import { isMobile } from "react-device-detect"
 
 function Socials() {
 
+    const openInNewTab = (url) => {
+        const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
+        if (newWindow) newWindow.opener = null
+      }
+
     return(
         [(isMobile ?
             <div style={{
@@ -18,25 +23,13 @@ function Socials() {
                 height: '75px',
                 background: 'black'
             }}>
-                <img onClick = {(e) => {
-                    e.preventDefault();
-                    window.location.href='https://t.co/uIfdsWMzne?amp=1';
-                    }}
+                <img onClick = {() => openInNewTab('https://t.co/uIfdsWMzne?amp=1')}
                     alt="discord" src={discord} style={{ margin: 'auto', height: '45%' }} />
-                <img  onClick = {(e) => {
-                    e.preventDefault();
-                    window.location.href='https://medium.com/@cerberusdao/welcome-to-cerberusdao-the-first-decentralized-reserve-currency-that-harnesses-the-power-of-e9c2a722e7f';
-                    }}
+                <img  onClick = {() => openInNewTab('https://medium.com/@cerberusdao/')}
                     alt="medium" src={medium} style={{ margin: 'auto', height: '45%' }} />
-                <img onClick = {(e) => {
-                      e.preventDefault();
-                      window.location.href='https://cerberus-dao.gitbook.io/cerberusdao/';
-                      }} 
+                <img onClick = {() => openInNewTab('https://cerberus-dao.gitbook.io/cerberusdao/')}
                     alt="gitbook" src={gitbook} style={{ margin: 'auto',  height: '45%' }} />
-                <img onClick = {(e) => {
-                    e.preventDefault();
-                    window.location.href='https://twitter.com/DaoCerberus';
-                    }}
+                <img onClick = {() => openInNewTab('https://twitter.com/DaoCerberus')}
                     alt="twitter" src={twitter} style={{ margin: 'auto', height: '45%' }} />
             </div>
         :
@@ -49,25 +42,13 @@ function Socials() {
             height: '120px',
             background: 'black'
         }}>
-            <img onClick = {(e) => {
-                    e.preventDefault();
-                    window.location.href='https://t.co/uIfdsWMzne?amp=1';
-                    }}
+            <img onClick = {() => openInNewTab('https://t.co/uIfdsWMzne?amp=1')}
                     alt="discord" src={discord} style={{ cursor: 'pointer', margin: 'auto', height: '45%' }} />
-                <img  onClick = {(e) => {
-                    e.preventDefault();
-                    window.location.href='https://medium.com/@cerberusdao/welcome-to-cerberusdao-the-first-decentralized-reserve-currency-that-harnesses-the-power-of-e9c2a722e7f';
-                    }}
+                <img  onClick = {() => openInNewTab('https://medium.com/@cerberusdao/')}
                     alt="medium" src={medium} style={{ cursor: 'pointer', margin: 'auto', height: '45%' }} />
-                <img onClick = {(e) => {
-                      e.preventDefault();
-                      window.location.href='https://cerberus-dao.gitbook.io/cerberusdao/';
-                      }} 
+                <img onClick = {() => openInNewTab('https://cerberus-dao.gitbook.io/cerberusdao/')}
                     alt="gitbook" src={gitbook} style={{ cursor: 'pointer', margin: 'auto',  height: '45%' }} />
-                <img onClick = {(e) => {
-                    e.preventDefault();
-                    window.location.href='https://twitter.com/DaoCerberus';
-                    }}
+                <img onClick = {() => openInNewTab('https://twitter.com/DaoCerberus')}
                     alt="twitter" src={twitter} style={{ cursor: 'pointer', margin: 'auto', height: '45%' }} />
         </div>
         )]
