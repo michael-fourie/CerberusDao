@@ -11,8 +11,8 @@
   height: 850px;
   width: 100%;
   margin: auto;
-  background: #0b1a22;
-  background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(12,25,32,1) 35%, rgba(22,49,65,1) 100%);
+  background: rgb(0,2,14);
+  background: linear-gradient(97deg, rgba(0,2,14,1) 0%, rgba(52,9,9,1) 77%, rgba(3,0,24,1) 100%);
 }
 
 .stats{
@@ -25,14 +25,15 @@
 .apy{
   height: fit-content;
   width: 100%;
-  background: linear-gradient(298deg, rgb(48, 48, 48) 0%, rgb(173, 173, 173) 100%);
+  background: linear-gradient(298deg, rgb(27, 27, 27) 0%, rgb(119, 119, 119) 100%);
   box-shadow: 0px 4px 4px rgba(0,0,0,0.25)
 }
 
 .liquidity{
   height: fit-content;
   width: 100%;
-  background: radial-gradient(circle, rgba(7,16,20,1) 0%, rgba(17,39,50,1) 35%, rgba(24,55,73,1) 100%);
+  background: rgb(0,2,14);
+  background: radial-gradient(circle, rgba(0,2,14,1) 4%, rgba(46,10,10,1) 100%, rgba(3,0,24,1) 100%);
 }
 .content{
   height: fit-content;
@@ -55,8 +56,9 @@
     height: 700px;
     width: 100%;
     margin: auto;
-    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(12,25,32,1) 35%, rgba(22,49,65,1) 100%);
-  }
+    background: rgb(0,2,14);
+  background: linear-gradient(97deg, rgba(0,2,14,1) 0%, rgba(52,9,9,1) 77%, rgba(3,0,24,1) 100%);
+}
   .stats{
     height: 565px;
     background: #000000;

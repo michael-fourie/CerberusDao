@@ -6,8 +6,11 @@ function Apy(){
 
     return(
         <div className="apy-content">
+            <p className={"apy-top-title"}>
+                The Cerberus Treasury 
+            </p>
             <p className="sustainable">
-                Meme Driven Staking APY
+                Hype. Ultra Sound. Stable
             </p>
             <div className="apy-info">
                 {isMobile ? 
@@ -81,7 +84,7 @@ function Apy(){
                         Treasury inflow will always outperform staking rewards.
                     </p>
                     <p className="apy-desc">
-                        Cerberus is designed with long-term protocol health in mind. All 3DOG minted for staking rewards are backed with a reserve fueled by SHIB, ETH, and DAI. 
+                        Cerberus is designed with long-term protocol health in mind. All 3DOG minted for staking rewards are backed with a reserve of by SHIB, ETH, and DAI. 
                     </p>
                 </div>
                 :
@@ -99,7 +102,7 @@ function Apy(){
                         Treasury inflow will always outperform staking rewards.
                     </p>
                     <p className="apy-desc">
-                        Cerberus is designed with long-term protocol health in mind. All 3DOG minted for staking rewards are backed with a reserve fueled by SHIB, ETH, and DAI. 
+                        Cerberus is designed with long-term protocol health in mind. All 3DOG minted for staking rewards are backed with a reserve of SHIB, ETH, and DAI. 
                     </p>
                 </div>
                 }

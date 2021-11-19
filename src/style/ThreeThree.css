@@ -9,6 +9,7 @@
 }
 
 .threethree-body{
+    z-index: 80;
     position: absolute;
     width: 65%;
     height: 265px;
@@ -28,7 +29,7 @@
 
 .threethree-background{
     z-index: 100;
-    margin-top: -10%;
+    margin-top: -2.5%;
     position: absolute;
     width: fit-content;
     height: 469px;
@@ -41,7 +42,7 @@
     /* identical to box height */
     text-align: center;
     letter-spacing: -0.04em;
-    color: rgb(85, 85, 85);
+    color: rgb(255, 255, 255);
     -webkit-opacity: 0.15;
     opacity: 0.15;
 }

@@ -22,7 +22,7 @@ function Bar() {
 
     return(
         <div className={classes.root}>
-            <AppBar style={{background: 'transparent'}} position="static">
+            <AppBar elevation={0} style={{background: 'transparent'}} position="static">
             {isMobile ?
                 <Toolbar>
                 <Box display='flex' flexGrow={1}>
