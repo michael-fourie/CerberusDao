@@ -9,6 +9,13 @@
     width: 100%;
     height: fit-content;
   }
+  .auction{
+    width: 13%;
+            color: white;
+            height: 44px;
+            background: linear-gradient(316.29deg, #9C622E 22.96%, #FACB99 75.17%);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
   .vertical{
     display:flex; 
     flex-direction: column;
