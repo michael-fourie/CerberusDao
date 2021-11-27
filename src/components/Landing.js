@@ -16,7 +16,11 @@ function Landing() {
                 <div className="vertical">
                     <h1 className="title">CerberusDAO</h1>
                     <h2 className="desc">A decentralized reserve currency powered by meme coins like SHIB, the ultra sound value of ETH, and the stable value of DAI.</h2>
-                    <Button onClick={() => openInNewTab('https://copperlaunch.com/auctions/0x053f3c35d557a76e9cb6c13a4842d9cfcddac833')} style={{margin: 'auto', color: 'white', width: '50%', fontSize: '18px', borderRadius: '32px', marginTop: '2%'}} className="auction">3DOG Auction</Button>
+                    {isMobile ? 
+                    <Button onClick={() => openInNewTab('https://app.cerberusdao.finance')} style={{ margin: 'auto', color: 'white', marginTop: '5%', marginBottom: '2%', width: '55%', fontSize: '18px', borderRadius: '32px', marginTop: '2%'}} className="auction">Launch App</Button>
+                    :
+                    <Button onClick={() => openInNewTab('https://app.cerberusdao.finance')} style={{textTransform: 'none', margin: 'auto', color: 'white', width: '25%', fontSize: '18px', borderRadius: '32px', marginTop: '2%'}} className="auction">Launch App</Button>
+                    }
                 </div>
                 <div className="img">
                     <img src={dog} className="img"/>

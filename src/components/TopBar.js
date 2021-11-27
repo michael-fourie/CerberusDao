@@ -55,7 +55,7 @@ function Bar() {
                      style={{ marginRight: '3%', color:"#FFFFFF",textTransform: 'none', fontSize: '18px' }} className="btn-grad">Twitter</Button>
                   <Button  onClick = {() => openInNewTab('https://t.co/uIfdsWMzne?amp=1')} 
                      style={{ marginRight: '3%', color:"#FFFFFF",textTransform: 'none', fontSize: '18px' }} className="btn-grad">Discord</Button>
-                  <Button style={{color: 'white', borderRadius: '140px'}} className="launch-app">Coming Soon</Button>
+                  <Button onClick = {() => openInNewTab('https://app.cerberusdao.finance')} style={{textTransform: 'none', color: 'white', borderRadius: '140px'}} className="launch-app">Launch App</Button>
                 </Toolbar>  
 }
             </AppBar>

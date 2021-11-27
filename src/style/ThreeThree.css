@@ -51,7 +51,7 @@
 @media only screen and (max-width: 767px) {
 
     .threethree-div{
-        margin-top: 10%;
+        margin-top:20%;
         display: flex;
         flex-direction: row;
         text-align: center;
@@ -85,6 +85,6 @@
         /* identical to box height */
         text-align: center;
         letter-spacing: -0.04em;
-        color: rgba(255, 255, 255, 0.25);
+        color: rgb(255, 255, 255);
     }
 }

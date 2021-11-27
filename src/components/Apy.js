@@ -3,7 +3,10 @@ import { Button } from "@material-ui/core"
 import { isMobile } from "react-device-detect"
 
 function Apy(){
-
+    const openInNewTab = (url) => {
+        const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
+        if (newWindow) newWindow.opener = null
+      }
     return(
         <div className="apy-content">
             <p className={"apy-top-title"}>
@@ -28,11 +31,11 @@ function Apy(){
                         3DOG Staking Rewards
                     </p>
                     {isMobile ?
-                        <Button style={{color: 'white', fontSize:"14px", borderRadius: '140px', margin: 'auto', marginTop: '1%', marginBottom: '5%'}} className="apy-btn">
+                        <Button onClick = {() => openInNewTab('https://app.cerberusdao.finance')} style={{color: 'white', fontSize:"14px", borderRadius: '140px', margin: 'auto', marginTop: '1%', marginBottom: '5%'}} className="apy-btn">
                             Stake Now
                         </Button>
                     :
-                        <Button style={{color: 'white', fontSize:"18px", borderRadius: '140px', margin: 'auto', marginTop: '1%'}} className="apy-btn">
+                        <Button onClick = {() => openInNewTab('https://app.cerberusdao.finance')} style={{color: 'white', fontSize:"18px", borderRadius: '140px', margin: 'auto', marginTop: '1%'}} className="apy-btn">
                             Stake Now
                         </Button>
                     }
@@ -52,11 +55,11 @@ function Apy(){
                         3DOG Staking Rewards
                     </p>
                     {isMobile ?
-                        <Button style={{color: 'white', fontSize:"14px", borderRadius: '140px', margin: 'auto', marginTop: '1%', marginLeft: '-20%'}} className="apy-btn">
+                        <Button onClick = {() => openInNewTab('https://app.cerberusdao.finance')} style={{color: 'white', fontSize:"14px", borderRadius: '140px', margin: 'auto', marginTop: '1%', marginLeft: '-20%'}} className="apy-btn">
                             Stake Now
                         </Button>
                     :
-                        <Button style={{color: 'white', fontSize:"18px", borderRadius: '140px', margin: 'auto', marginTop: '1%'}} className="apy-btn">
+                        <Button onClick = {() => openInNewTab('https://app.cerberusdao.finance')} style={{color: 'white', fontSize:"18px", borderRadius: '140px', margin: 'auto', marginTop: '1%'}} className="apy-btn">
                             Stake Now
                         </Button>
                     }
