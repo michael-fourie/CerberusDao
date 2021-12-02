@@ -7,6 +7,12 @@
   background: #FFFFFF;
   
 }
+
+.MuiSkeleton-root {
+  margin: auto;
+  background: #ffffff1c !important;
+}
+
 .landing{
   height: 850px;
   width: 100%;

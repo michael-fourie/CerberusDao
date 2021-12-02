@@ -1,4 +1,5 @@
 import "../style/StatComponent.css"
+import { Skeleton } from "@material-ui/lab";
 
 function StatComponent(props) {
 
@@ -14,13 +15,18 @@ function StatComponent(props) {
                 fontWeight: "200",
                 fontSize: "20px",
             }}>{title}</p>
-            <p style={{
+            { text ? (
+              <p style={{
                 color: "white",
                 fontFamily: "Roboto",
                 fontStyle: "normal",
                 fontWeight: "900",
                 fontSize: "30px",
-            }}>{text}</p>
+              }}>{text}</p>
+            ) : (
+              <Skeleton width={150} height={50} data-testid="apy-loading" />
+            ) }
+
         </div>
     )
 
