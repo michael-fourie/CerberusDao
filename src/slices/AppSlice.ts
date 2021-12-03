@@ -34,7 +34,10 @@ export const loadAppDetails = createAsyncThunk(
       totalValueLocked
       treasuryMarketValue
       nextEpochRebase
-      nextDistributedOhm
+      nextDistributedOhm,
+      treasuryOhmEthPOL,
+      treasuryRiskFreeValue,
+      liquidityOhmEthValue
     }
   }
 `;
@@ -54,6 +57,9 @@ export const loadAppDetails = createAsyncThunk(
         const sOhmCirculatingSupply = parseFloat(graphData.data.protocolMetrics[0].sOhmCirculatingSupply);
         const totalSupply = parseFloat(graphData.data.protocolMetrics[0].totalSupply);
         const treasuryMarketValue = parseFloat(graphData.data.protocolMetrics[0].treasuryMarketValue);
+        const treasuryOhmEthPOL = parseFloat(graphData.data.protocolMetrics[0].treasuryOhmEthPOL);
+        const liquidityOhmEthValue = parseFloat(graphData.data.protocolMetrics[0].liquidityOhmEthValue);
+        const protocolOwnedLiquidity = treasuryOhmEthPOL / 100 * liquidityOhmEthValue;
         let ohmStakedRate = 0;
         if (ohmCirculatingSupply != 0 && sOhmCirculatingSupply) {
             ohmStakedRate = sOhmCirculatingSupply / ohmCirculatingSupply;
@@ -111,6 +117,8 @@ export const loadAppDetails = createAsyncThunk(
             ohmStakedRate,
             totalSupply,
             treasuryMarketValue,
+            protocolOwnedLiquidity,
+            treasuryOhmEthPOL
         } as IAppData;
     },
 );
@@ -184,6 +192,8 @@ interface IAppData {
     readonly stakingTVL: number;
     readonly totalSupply: number;
     readonly treasuryMarketValue?: number;
+    readonly protocolOwnedLiquidity?: number;
+    readonly treasuryOhmEthPOL?: number;
 }
 
 const appSlice = createSlice({

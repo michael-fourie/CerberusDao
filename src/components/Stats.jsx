@@ -26,19 +26,18 @@ function Stats() {
       ) : (
         <StatComponent title="Total 3DOG Staked" text=""/>
       ) }
-      {/*<StatComponent title="Treasury Balance" text="Coming Soon"/>*/}
-      {/*{ treasuryMarketValue ? (*/}and t
-      {/*  <StatComponent title="Treasury Balance" text={*/}
-      {/*    new Intl.NumberFormat("en-US", {*/}
-      {/*      style: "currency",*/}
-      {/*      currency: "USD",*/}
-      {/*      maximumFractionDigits: 0,*/}
-      {/*      minimumFractionDigits: 0,*/}
-      {/*    }).format(treasuryMarketValue)*/}
-      {/*  }/>*/}
-      {/*) : (*/}
-      {/*  <StatComponent title="Treasury Balance" text=""/>*/}
-      {/*) }*/}
+      { treasuryMarketValue ? (
+        <StatComponent title="Treasury Balance" text={
+          new Intl.NumberFormat("en-US", {
+            style: "currency",
+            currency: "USD",
+            maximumFractionDigits: 0,
+            minimumFractionDigits: 0,
+          }).format(treasuryMarketValue)
+        }/>
+      ) : (
+        <StatComponent title="Treasury Balance" text=""/>
+      ) }
       { stakingTVL ? (
         <StatComponent title="Total Value Locked" text={
           new Intl.NumberFormat("en-US", {

@@ -21,7 +21,6 @@ function App() {
 
   useEffect(() => {
     // don't load ANY details until wallet is Checked
-    console.log('provider: ', provider);
     dispatch(loadAppDetails({ networkID: chainId, provider: provider }));
   }, []);
 
