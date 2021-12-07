@@ -1,4 +1,4 @@
-export const THE_GRAPH_URL = "https://api.studio.thegraph.com/query/15446/cerberusdao/v2.0.0";
+export const THE_GRAPH_URL = "https://api.studio.thegraph.com/query/15446/cerberusdao/v7.1.0";
 export const EPOCH_INTERVAL = 2200;
 
 // NOTE could get this from an outside source since it changes slightly over time
