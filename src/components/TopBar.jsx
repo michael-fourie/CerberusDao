@@ -38,7 +38,7 @@ function Bar() {
                     style={{ marginLeft: '0.5%', color:"#FFFFFF", textTransform: 'none', fontSize: '14px' }} >Medium</Button>
                   <Button onClick = {() => openInNewTab('https://twitter.com/DaoCerberus')}
                      style={{ marginRight: '0.5%', color:"#FFFFFF",textTransform: 'none', fontSize: '14px' }} >Twitter</Button>
-                  <Button  onClick = {() => openInNewTab('https://t.co/uIfdsWMzne?amp=1')} 
+                  <Button  onClick = {() => openInNewTab('discord.com/invite/3dog')} 
                      style={{color:"#FFFFFF", textTransform: 'none',fontSize: '14px' }} >Discord</Button>
                 </Toolbar>
             :
@@ -53,7 +53,7 @@ function Bar() {
                     style={{ marginRight: '3%', color:"#FFFFFF", textTransform: 'none', fontSize: '18px' }} className="btn-grad">Medium</Button>
                   <Button onClick = {() => openInNewTab('https://twitter.com/DaoCerberus')} 
                      style={{ marginRight: '3%', color:"#FFFFFF",textTransform: 'none', fontSize: '18px' }} className="btn-grad">Twitter</Button>
-                  <Button  onClick = {() => openInNewTab('https://t.co/uIfdsWMzne?amp=1')} 
+                  <Button  onClick = {() => openInNewTab('discord.com/invite/3dog')} 
                      style={{ marginRight: '3%', color:"#FFFFFF",textTransform: 'none', fontSize: '18px' }} className="btn-grad">Discord</Button>
                   <Button onClick = {() => openInNewTab('https://app.uniswap.org/#/swap?outputCurrency=0x8a14897ea5f668f36671678593fae44ae23b39fb')} style={{textTransform: 'none', color: 'white', borderRadius: '140px'}} className="launch-app">Buy 3DOG</Button>
                 </Toolbar>  

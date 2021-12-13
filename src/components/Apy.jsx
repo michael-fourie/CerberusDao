@@ -125,14 +125,13 @@ function Apy() {
             width: '100%',
           } }>
             <p className="apy-regulated">
-              Treasury Regulated Apy
+              Treasury Regulated APY
             </p>
             <p className="apy-title">
               Treasury inflow will always outperform staking rewards.
             </p>
             <p className="apy-desc">
-              Cerberus is designed with long-term protocol health in mind. All 3DOG minted for staking rewards are
-              backed with a reserve of by SHIB, ETH, and DAI.
+              Cerberus is designed with long-term protocol health in mind. All 3DOG tokens minted for staking rewards are backed by assets held in the Cerberus Treasury.
             </p>
           </div>
           :
@@ -144,14 +143,13 @@ function Apy() {
             width: '30%',
           } }>
             <p className="apy-regulated">
-              Treasury Regulated Apy
+              Treasury Regulated APY
             </p>
             <p className="apy-title">
               Treasury inflow will always outperform staking rewards.
             </p>
             <p className="apy-desc">
-              Cerberus is designed with long-term protocol health in mind. All 3DOG minted for staking rewards are
-              backed with a reserve of SHIB, ETH, and DAI.
+              Cerberus is designed with long-term protocol health in mind. All 3DOG tokens minted for staking rewards are backed by assets held in the Cerberus Treasury.
             </p>
           </div>
         }
