@@ -23,7 +23,7 @@ function Socials() {
                 height: '75px',
                 background: 'black'
             }} key="1">
-                <img onClick = {() => openInNewTab('discord.com/invite/3dog')}
+                <img onClick = {() => openInNewTab('https://discord.com/invite/3dog')}
                     alt="discord" src={discord} style={{ margin: 'auto', height: '45%' }} />
                 <img  onClick = {() => openInNewTab('https://medium.com/@cerberusdao/')}
                     alt="medium" src={medium} style={{ margin: 'auto', height: '45%' }} />
@@ -42,7 +42,7 @@ function Socials() {
             height: '120px',
             background: 'black'
         }} key="2">
-            <img onClick = {() => openInNewTab('discord.com/invite/3dog')}
+            <img onClick = {() => openInNewTab('https://discord.com/invite/3dog')}
                     alt="discord" src={discord} style={{ cursor: 'pointer', margin: 'auto', height: '45%' }} />
                 <img  onClick = {() => openInNewTab('https://medium.com/@cerberusdao/')}
                     alt="medium" src={medium} style={{ cursor: 'pointer', margin: 'auto', height: '45%' }} />
